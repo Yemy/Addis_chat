@@ -13,7 +13,7 @@ import ExpandMoreOutlinedIcon from "@material-ui/icons/ExpandMoreOutlined"
 import { useStateValue } from "./StateProvider"
 
 function Sidebar() {
-    const [{ user }, dispatch] = useStateValue();
+    const [{user}, dispatch] = useStateValue();
 
     return (
         <div className="sidebar">
